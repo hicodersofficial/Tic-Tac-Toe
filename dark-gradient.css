@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(-45deg, #000001, #003829) !important;
+}
+.alert {
+  background: linear-gradient(-45deg, #088164, #008a45) !important;
+  color: #fff !important;
+}
+.container {
+  background: linear-gradient(-45deg, #007579, #000000) !important;
+}
+.grid-container .item {
+  color: #fff !important;
+}
+.grid-container .item:active {
+  background: #eee;
+}
+
+.win {
+  background: #000e0b !important;
+  color: #fff !important;
+}
+
+.grid-container .item {
+  border-color: #fff !important;
+}

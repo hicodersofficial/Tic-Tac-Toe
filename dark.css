@@ -1,0 +1,25 @@
+body {
+  background: #5d5d5d !important;
+}
+.alert {
+  background: #161516 !important;
+  color: #fff !important;
+}
+.container {
+  background: #000000 !important;
+}
+.grid-container .item {
+  color: #fff !important;
+}
+.grid-container .item:active {
+  background: #eee;
+}
+
+.win {
+  background: #3d3d3d !important;
+  color: #fff !important;
+}
+
+.grid-container .item {
+  border-color: #fff !important;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./tic-tac-toe.png" />
+    <link rel="favicon" href="./favicon.ico" />
+    <title>Tic Tac Toe</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="layout-container">
+      <div
+        class="layout-btn"
+        style="background: linear-gradient(-45deg, #00f8ff, #0090ff)"
+        data-layout="gradient-layout"
+      ></div>
+      <div
+        class="layout-btn"
+        style="background: #ffd300"
+        data-layout="style"
+      ></div>
+      <div
+        class="layout-btn"
+        style="background: #3d3d3d"
+        data-layout="dark"
+      ></div>
+      <div
+        class="layout-btn"
+        style="background: linear-gradient(-45deg, #007579, #000000)"
+        data-layout="dark-gradient"
+      ></div>
+    </section>
+    <section class="tic-tac-toe-container">
+      <div class="alert"></div>
+      <div class="container">
+        <div class="grid-container">
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+        </div>
+        <div class="grid-container">
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+        </div>
+        <div class="grid-container">
+          <div class="item no-border"></div>
+          <div class="item no-border"></div>
+          <div class="item no-border"></div>
+        </div>
+      </div>
+    </section>
+    <button id="reset">Reset</button>
+  </body>
+</html>
