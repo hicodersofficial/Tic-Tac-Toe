@@ -2,5 +2,5 @@
 
 Build Tic tac toe game with vanilla JavaScript.
 
-![](./1.jpg)
-![](./2.jpg)
+![](./1.png)
+![](./2.png)
