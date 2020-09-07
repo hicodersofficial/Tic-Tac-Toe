@@ -65,11 +65,41 @@ body .tic-tac-toe-container {
   display: flex;
 }
 
+.utils {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.scale.utils:hover {
+  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+}
+
+.tanslate.utils:hover {
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+}
+
+.tanslate.utils:active {
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+}
+
 .layout-btn {
   margin: 14px 0.4rem;
   border: 3px solid #fff;
   width: 1rem;
   height: 1rem;
+
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
